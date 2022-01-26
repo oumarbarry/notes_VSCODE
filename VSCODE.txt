@@ -1,0 +1,345 @@
+top 8 vscode shortcuts (qazi):
+	HIGHLIGHT NEXT INSTANCE: CTRL/CMD + D
+	SELECT AN ENTIRE LINE: CTRL/CMD + L
+	COMMENTING/UNCOMMENTING A LINE: CTRL/CMD + /
+	MOVE BY WORD: CTRL/OPTION + LEFT/RIGHT
+	FILE SWITCHER: CTRL/CMD+P, CTRL/CMD+PP
+	TRANSPORTERS:
+		HOME/END win, CMD+LEFT/RIGHT mac
+		CTRL+[SHIFT]+HOME/END win, CMD+[SHIFT]+UP/DOWN mac
+	AUTOCOMPLETE: TAB
+
+
+top 20 vscode shortcuts (jamesqquick):
+	OPEN COMMAND PALETTE: CTRL/CMD+SHIFT+P
+	TOGGLE SIDEBAR: CTRL/CMD + B
+	TOGGLE BUILT-IN TERMINAL: CTRL/CMD + ~
+	OPEN SETTINGS: CTRL/CMD + ,
+	QUICKLY SEARCH & OPEN A FILE: CTRL/CMD + P
+	TOGGLE BETWEEN FILES: CTRL/CMD + [SHIFT] + TAB
+	MOVE FILE TO SPLIT WINDOW:  
+		CTRL + ALT + LEFT/RIGHT win, CMD + OPTION + LEFT/RIGHT mac
+		CTRL/CMD + \ (CTRL\CMD + ANTISLASH)
+	CLOSE FILE: CTRL/CMD + W
+	SEARCH/REPLACE IN A FILE: CTRL/CMD + F, CTRL/CMD + H
+	GLOBAL SEARCH/REPLACE: CTRL/CMD + SHIFT + F, CTRL/CMD + SHIFT + H
+	TOGGLE COMMENT: CTRL/CMD + / (CTRL/CMD + SLASH) 
+	NAVIGATING TEXT:
+		CTRL/OPTION+LEFT/RIGHT: to skip word by word
+		HOME/END win, CMD+LEFT/RIGHT mac: to skip to the beginning/end of a line
+		CTRL+HOME/END win, CMD+SHIFT+UP/DOWN mac: to skip at the beginning/end of a file
+		ALT/OPTION + UP/DOWN: to move a line up/down
+	COPY, CUT, PASTE: just keep the cursor on the line
+	DUPLICATE A LINE: SHIFT + ALT/OPTION + UP/DOWN
+	MULTIPLE CURSOR: 
+		ALT/CMD + click
+		[SHIFT] + CTRL/CMD + ALT/OPTION + UP/DOWN
+	SELECT A WORD and his following occurences: CTRL/CMD + D
+	SELECT ALL OCCURENCES OF A WORD: CTRL/CMD + SHIFT + L,	CTRL + F2 win
+	RENAME a SYMBOL in a file: F2
+	JUMP TO FUNCTION DEFINITION: CTRL/CMD + click
+	ZEN MODE: CTRL/CMD + K then Z
+
+
+vscode crash course:
+	some shortcuts:
+		CTRL+TAB: to switch between files, 
+		CTRL+P: to search and/or switch between files
+		CTRL+LEFT_RIGHT_ARROW on mac, OPTION+LEFT_RIGHT_ARROW on windows: to move word by word
+		Home/End win, CMD+LEFT_RIGHT_ARROW mac: to go at the start/end of a line
+		CTRL+Home/End win, CMD+TOP_DOWN_ARROW mac: to go at the start/end of the file
+		CTRL+D: to select a word and its occurences
+		CTRL+ALT+LEFT_RIGHT_ARROW: to move a file in a second grid
+
+	customize:
+		"editor.fontFamily": "cascadia code" // github.com/microsoft/cascadia-code
+		"editor.fontLigatures": true,
+
+	extensions:
+		Cobalt2, Night Owl, Shades of Purple
+		Prettier, Better Comments, Live Server, Auto Rename Tag, Debugger for Chrome
+		Polacode, Cloak, CSS Peek, Import Cost, Bookmarks, FaunaDB, MarkdownPDF
+		advanced-new-file, Quokka.js, DotENV, easy-snippet, Emoji, EditorConfig for VSCode
+
+	Built-in Settings Sync
+
+	DEBUGGING in vscode
+
+	Integrated Terminal:
+		CMD+UP_or_DOWN_ARROW to increase/decrease the terminal window 
+
+	Built-in GIT Integration + Git Lens
+
+	LIVE-SHARE
+
+
+master vscode:
+	the UI:
+		Basic UI: we have the Menu Bar, the Editor, the Activity Bar and Side Bar, the Status Bar and finally the Panel
+		CRUD folders and files
+		Save and AutoSave
+		Changing the vscode display language : CTRL+SHIFT+P>Configure Display Language
+		Grid System : Splitting up the editor
+		MiniMap, WordWrap, Zoom-FontSize
+		Updates
+	
+	Increase Productivity:
+		IntelliSense: code_completion + code_hinting + code_documentation
+		
+		EMMET:
+			HTML:
+				lorem20 -> generate a lorem of 20 words
+				
+				h1#myID
+				p.myParagraph
+				#mySuperID -> automatically generate a div with the id: <div id="mySuperID"></div> 
+				mySupaID.container.otherContainer
+				
+				p+img -> <p></p> & at next line <img src="" alt="">
+				p.paraph+img#logo
+				
+				p[name] -> generate: <p name=""></p>
+				div[data-state="ok"] -> <div data-state="ok"></div>
+
+				section#se>ul#nav>(a>li.navItem{})*5+input:checbox[checked]
+
+				ul>li#ID$.class${LIST ITEM $}*5
+
+			CSS:
+				body {
+					m2px -> after hitting tab at the end, will generate margin: 2px;
+					p2rem
+					h20%
+					hvh
+					hvw
+					dg
+					df
+					db
+					dn
+					c#fff
+					bg#333333
+				}
+
+		Find and Replace: CTRL+F for local search/replace, CTRL+SHIFT+F for global search/replace
+		
+		Navigate through the code:
+			CTRL+[SHIFT]+LEFT_RIGHT_ARROW: select word by word 
+			SHIFT+ALT+TOP_DOWN_ARROW: to copy/paste instantantly a line
+			CMD+LEFT_RIGHT_ARROW: to move the cursor to the start/end of a line
+			CMD+TOP_DOWN_ARROW: to move the cursor to the start/end of the file
+			CTRL+TAB: to navigate between files, CTRL+SHIFT+TAB: to retro-navigate 
+			Breadcrumbrs, MiniMap                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+
+	Extensions:
+		Some essentiels extensions:
+			Live Server, Debugger for Chrome, Javascript ES6 Code Snippets, Bracket Pair Colorizer 2, Prettier
+			HTMLCSS Support, Code Spell Checker
+		
+		Some cosmetic extensions:
+			PolaCode, CSS Peek, AutoRenameTag, Cloak
+				Indent Rainbow, Advanced New File, Better Comments, MarkdownPDF, Bookmarks, FaunaDB
+
+		Some environmental extensions:
+			Live Sass Compiler, Node-Snippets, IMPORT COST
+				IntelliSense for CSS classnames in HTML, Rest Client, Live Share, ES7 React Snippets
+		
+	Snippets:
+		User Snippets:
+			"Oumar's Console Log": {
+				"scope": "javascript,typescript",
+				"prefix": "log",
+				"body": [
+					"console.log('$1');",
+					"$2"
+				],
+				"description": "Log output to console"
+			},
+			"Oumar's For Loop":{
+				"prefix": "foro",
+				"body": [
+					"for (let ${1:ok} = 0; ${1:ok} < ${2:ahh}.length; ${1:ok}++) { console.log(${2:ahh}) }",
+					"$0"
+				],
+				"description": "from oumar"
+			},
+			"Oumar's Hook State": {
+				"prefix": "hookstate",
+				"body": "const [$1, set$2] = useState($3);$0"
+			}
+
+	Keyboard Shortcuts:
+		some essential shortcuts:
+			CTRL+K+S: open keyboard shortcut menu
+			CTRL+B: to show/hide the sidebar
+			CTRL+D: to select following occurence
+			CTRL+SHIFT+P: open command palette, CTRL+P: open file context
+			CTRL+N: create a new file, CTRL+W: close a file, CTRL+SHIFT+N: create a new window, CTRL+SHIFT+W: close a window
+			ALT+UP_or_DOWN_ARROW: to move an entire line up or down
+		
+		Sublime/Atom Keymaps Extensions
+
+	Themes: VSCode built-in themes, Custom Themes & Icons Extensions, CTRL+SHIFT+P>themes
+
+	The Integrated Terminal: CTRL+SHIFT+P Terminal, Terminal Shortcuts, Terminal Settings
+
+	Sync VSCode
+
+
+l'essenstiel de vscode:
+	intro:
+		vscode-cli:
+			code -v | code -h
+			code
+			code .
+			code -n 
+			code -d Program.cs Program2.cs	 //-->ouvre un editeur de difference des deux fichiers
+			
+			code -g Program.cs:9	//-->pour ouvrir le fichier susnomme a la ligne 9
+
+		decouvrir l'interface:
+			on a la barre d'activite tout a gauche, qui est donc suivi de la sidebar, et enfin la zone d'edition
+				en bas, on a eventuellement le panel composé du terminal, de la console de debug, etc
+					et en haut, on a le menu et eventuellement la palette de commande
+
+		les fichiers et les fenetres d'edition:
+			ouvrir des onglets:
+				mode de previsualisation: 1 clic sur le fichier donné
+					mode d'edition: double sur le fichier donné
+				CTRL+SHIFT+TAB pour passer d'un onglet à un autre
+
+			ouvrir des fenetres-onglets d'edition:
+				ouvrir sur le cote (ctrl+enter) == fractionner l'editeur (ctrl+\)
+					ou encore (ctrl+double_click_sur_le_fichier_donné)
+						fermer les fenetres d'edition: CTRL+W
+
+				switcher entre les fenetres d'edition:
+					CTRL+1 / CTRL+2 / CTRL+3
+					ou ctrl+k,ctrl+right_arrow / ctrl+k,ctrl+left_arrow
+
+		les espaces de travail ou workspace
+
+		les preferences:
+			les raccourcis claviers
+			les keymaps
+			les snippets
+			les themes
+			les parametres:
+				parametres par defaut
+					puis parametres utilisateur
+						puis parametres du workspace
+							puis parametre du dossier de travail
+
+	Travailler avec le code:
+		la palette de commandes:
+			CTRL+P -> to access all file within workspace
+			CTRL+P,? 	-> to list all global commands
+			CTRL+P,> 	-> to show and run all other palette commands
+			CTRL+P,#	-> to see all available symbol in a workspace
+			CTRL+P,@:	-> to see all available symbol in a specific file by category
+
+		IntelliSense (code.visualstudio.com/docs/editor/intellisense):
+			CTRL+SPACE: pour forcer l'affichage d'intellisense
+				CTRL+SPACE encore, une fois l'autocompletion active pour afficher/caher l'aide contextuelle
+
+		formatage:
+			format all the document: SHIFT+ALT+F 	format the selection: CTRL+K,CTRL+F
+				activate/deactivate editor.formatOnSave, formatOnType, formatOnPaste in preferences
+		
+		linter, codelens:
+			linter:
+				CTRL+SHIFT+M  	-> pour afficher la console de blem-pro
+				CTRL+. 	-> afficher les correctifs
+
+			codelens: 
+				affiche a l'interieur du code des infos supplementaires
+					regexpreviewer, gitlens par exemple utilise l'api de codelens
+
+				F12: Aller au fichier de la definition
+				ALT+F12: Previsualison de la definition
+
+		connaitre les raccourcis claviers propres a vscode: CTRL+K,CTRL+R
+
+		selections multiples:
+			multiCursor (editor.multiCursorModifier: ALT)
+				multiselection peu importe en ligne ou en colonne, par lettre ou par mot entier
+
+			etendre sa selection vers le haut et/ou le bas: SHIFT+ALT+right_arrow/left_arrow 
+				
+			COPIER-COLLER:
+				SHIFT+ALT+top_arrow/bottom_arrow
+				ou bien, il suffit de placer le curseur n'importe sur la ligne desirée puis CTRL+C,CTRL+V
+
+			selectionner en colonne: 
+				SHIFT+ALT+(glisser_de_la_souris)
+				
+				sinon pour donc etendre la selection en colonne d'un mot deja selectionné:
+					CTRL+SHIFT+ALT+top_arrow/bottom_arrow
+			
+			selection d'occurence: 
+				CTRL+Fn+F2
+				si un premier mot est deja selectionné: CTRL+SHIFT+L
+
+		modifier l'affichage:
+			codefolding integré: c-a-d la possibilité de plier/deplier du code
+				CTRL+K,CTRL+0 pour tout plier
+				CTRL+K,CTRL+J pour tout deplier
+			y'a aussi la possibilité de definir des REGIONS dans le code selon le langage, 
+				voir la doc de vscode
+
+			go to VIEW:
+				fullscreen: F11
+				zenmode: CTRL+K,Z pour l'activer et la meme chose/Escape+Escape pour le desactiver
+		
+		effectuer des recherches:
+			recherche global sur le projet en entier: CTRL+SHIFT+F
+			recherche dans le fichier courant: CTRL+F
+				ENTER ou F3 pour avancer dans la recherche vers les occurences suivantes
+			remplacement dans ke fichier courant: CTRL+H
+
+	Aller plus loin:
+		les tasks runner de vscode (npm, grunt, gulp, tsc, c#....):
+			si le task runner a son propre fichier de config, vscode y extrait directement les taches
+				comme avec le tsconfig pour typescript...
+			
+			sinon en definissant le dossier de travail comme un espace de travail vscode, 
+				vscode y cree un fichier tasks.json dans le dossier .vscode (.vscode/task.json)
+					tel est le cas pour un projet c#/dotnet par exemple
+
+		git for vscode:
+			some extensions: vscode-github, gitlens
+
+		le debogage (.vscode/launch.json utilise les debuggers integrés aux extensions vscode)
+
+		emmet (docs.emmet.io/cheat-sheet)
+
+
+extensions:
+	prettier
+	bracket pair colorizer 2
+	liveshare
+	es6 snippets
+	debugger for chrome
+
+	gitlens
+	turbo console log
+	vscode-random
+	error-lens
+	code time
+	vscode-spotify
+
+	REST Client (vs-code postman/insomnia like):
+		filename.http:
+			GET http://localhost:3000/api/users
+
+			### -->triple # is use to allow us to write several HTTP methods in this same file
+
+
+			POST http://localhost:3000/api/user 
+			HTTP/1.1
+			content-type: application/json
+			{"username": "Ben", "password": "pwd"}
+	
+	Live Server
+	Auto Close Tag
+	Auto Rename Tag
+
